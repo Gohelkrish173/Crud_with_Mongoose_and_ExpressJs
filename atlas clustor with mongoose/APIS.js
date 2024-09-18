@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const Faculty = require("./model/Faculty");
 const cors = require("cors");
 
-mongoose.connect("mongodb+srv://GohelKrish173:krish173@cluster0.tj8zjyr.mongodb.net/",{useNewUrlParser : true})
+mongoose.connect("mongodb+srv://GohelKrish173:<password>@cluster0.tj8zjyr.mongodb.net/",{useNewUrlParser : true})
 .then(()=>{
     const app = express();
     app.use(express.json());
